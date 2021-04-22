@@ -1,2 +1,2 @@
-# portfolio
-repository to hold my portfolio created with React and ReactRouter
+# Portfolio
+Repository to hold my portfolio created with React and ReactRouter.
