@@ -1,5 +1,53 @@
 .App {
   text-align: center;
+  background-color: black;
+}
+
+.sidenav {
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 1%;
+  background-color: #262626;
+}
+
+.sidenav-link {
+  text-decoration: none !important;
+  font-size: 2em;
+  color: #e6e6e6 !important;
+}
+
+.sidenav-link-container {
+  margin-top: 5%;
+}
+
+.open-nav {
+  font-size: 2em;
+  margin: 20px;
+  cursor: pointer;
+  float: left;
+}
+
+.close-nav {
+  background-color: inherit;
+  border: none;
+  float: right;
+  padding: 15px;
+}
+
+.close-symbol {
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+}
+
+.main {
+  background-color: #0d0d0d;
+  height: 100vh;
+  text-align: center;
+  color: #e6e6e6;
 }
 
 .App-logo {
